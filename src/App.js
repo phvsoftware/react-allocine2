@@ -21,7 +21,6 @@ function App() {
   };
 
   useEffect(() => {
-    console.log("Effect executed");
     let url = "";
     switch (tabIndex) {
       case 0:
@@ -48,7 +47,6 @@ function App() {
     setIsLoading(false);
   };
 
-  console.log("movies", movies);
   return (
     <div>
       <Header />

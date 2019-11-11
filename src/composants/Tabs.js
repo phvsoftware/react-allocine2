@@ -5,7 +5,7 @@ const Tabs = props => {
   return (
     <div className="tabs">
       <div
-        className={props.tabIndex === 0 ? "selected" : ""}
+        className={props.tabIndex === 0 ? "selected" : "tab-item"}
         onClick={() => {
           props.onClick(0);
         }}
@@ -13,7 +13,7 @@ const Tabs = props => {
         Popular Movies
       </div>
       <div
-        className={props.tabIndex === 1 ? "selected" : ""}
+        className={props.tabIndex === 1 ? "selected" : "tab-item"}
         onClick={() => {
           props.onClick(1);
         }}
@@ -21,7 +21,7 @@ const Tabs = props => {
         Upcoming Movies
       </div>
       <div
-        className={props.tabIndex === 2 ? "selected" : ""}
+        className={props.tabIndex === 2 ? "selected" : "tab-item"}
         onClick={() => {
           props.onClick(2);
         }}

@@ -6,9 +6,12 @@
   align-items: center;
   height: 50px;
   font-weight: bold;
-  cursor: pointer;
 }
 
 .tabs .selected {
   text-decoration: underline;
+}
+
+.tab-item {
+  cursor: pointer;
 }

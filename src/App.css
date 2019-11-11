@@ -1,0 +1,41 @@
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #eee;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.movies-pages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background-color: #ccc;
+  width: 100%;
+}
+
+.button-page {
+  margin-left: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+  color: rgb(69, 69, 224);
+}
+
+.button-page-.disabled {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: rgb(109, 109, 136);
+  cursor: not-allowed;
+}
+
+.button-page:hover {
+  color: rgb(118, 118, 243);
+}

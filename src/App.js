@@ -75,7 +75,7 @@ function App() {
             >
               <ChevronsLeft />
             </span>
-            <span>
+            <span style={{ height: "23px" }}>
               Page {page} / {totalPage}
             </span>
             <span
